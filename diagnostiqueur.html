@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/37df1db6ec.js" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap CSS -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Outil de diagnostique | Cabinet medical Saint Antoine</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-primary">
+		<a class="navbar-brand" href="index.html"><img src="css/img/logo.png" width="30" height="30" loading="lazy" alt="..."></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item ml-4">
+					<a class="nav-link text-uppercase" href="diagnostiqueur.html"><i class="fas fa-stethoscope mr-3"></i>Diagnostiquez-vous</a>
+				</li>
+				<li class="nav-item ml-4">
+					<a class="nav-link text-uppercase" href="rdv.html"><i class="far fa-calendar-alt mr-3"></i>Prise de rendez-vous</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		<strong>Attention !</strong> Notre outil de diagnostic ne remplace en <strong class="text-uppercase">aucun</strong> cas un rendez-vous avec un médecin. Il vous donne juste un premier avis.
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+
+
+	<div class="container mt-5">
+		<h1 class="text-center">Diagnostiqueur</h1>
+		<p class="text-center mt-5">Utilisez notre outil de diagnostic pour préparer votre rendez-vous.</p>
+		<p class="text-center">Et devenez ainsi acteur de votre santé.</p>
+	</div>
+
+
+	<div class="container mt-5">
+		<div class="row">
+
+			<div class="col-lg-6">
+				<p class="mt-5 text-primary">1. Avez-vous de la fièvre ?</p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+					<label class="form-check-label" for="exampleRadios1">
+						Forte
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+					<label class="form-check-label" for="exampleRadios2">
+						Moyenne
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+					<label class="form-check-label" for="exampleRadios3">
+						Pas de fièvre
+					</label>
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<p class="mt-5 text-primary">2. Avez-vous de la toux ? </p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios4" value="option4">
+					<label class="form-check-label" for="exampleRadios4">
+						Sèche
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios5" value="option5">
+					<label class="form-check-label" for="exampleRadios5">
+						Grasse
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios6" value="option6">
+					<label class="form-check-label" for="exampleRadios6">
+						Aiguë
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<p class="mt-5 text-primary">3. Êtes-vous fatigué ?</p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios7" value="option7">
+					<label class="form-check-label" for="exampleRadios7">
+						Très fatigué
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios8" value="option8">
+					<label class="form-check-label" for="exampleRadios8">
+						Fatigué
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios9" value="option9">
+					<label class="form-check-label" for="exampleRadios9">
+						Non
+					</label>
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+
+				<p class="mt-5 text-primary">4. Avez-vous des courbatures ?</p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios10" value="option10">
+					<label class="form-check-label" for="exampleRadios10">
+						Fortes courbatures
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios11" value="option11">
+					<label class="form-check-label" for="exampleRadios11">
+						Faibles courbatures
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios12" value="option12">
+					<label class="form-check-label" for="exampleRadios12">
+						Pas de courbature
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<p class="mt-5 text-primary">5. Avez-vous mal à la gorge ?</p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios13" value="option13">
+					<label class="form-check-label" for="exampleRadios13">
+						Très mal
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios14" value="option14">
+					<label class="form-check-label" for="exampleRadios14">
+						Mal
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios15" value="option15">
+					<label class="form-check-label" for="exampleRadios15">
+						Non
+					</label>
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<p class="mt-5 text-primary">6. Avez-vous la diarrhée ?</p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios16" value="option16">
+					<label class="form-check-label" for="exampleRadios16">
+						Oui
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios17" value="option17">
+					<label class="form-check-label" for="exampleRadios17">
+						Non
+					</label>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<p class="mt-5 text-primary">7. Avez-vous des maux de tête ?</p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios19" value="option19">
+					<label class="form-check-label" for="exampleRadios19">
+						Oui
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios20" value="option20">
+					<label class="form-check-label" for="exampleRadios20">
+						Non
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios21" value="option21">
+					<label class="form-check-label" for="exampleRadios21">
+						Faibles
+					</label>
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<p class="mt-5 text-primary">8. Avez-vous ces symptômes ? <em>(plusieurs réponses possibles)</em></p>
+				<div class="form-check ml-2">
+					<input class="form-check-input" type="checkbox" name="exampleRadios8" id="exampleRadios22" value="option22">
+					<label class="form-check-label" for="exampleRadios22">
+						Difficultés à respirer ou essoufflement
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="checkbox" name="exampleRadios8" id="exampleRadios23" value="option23">
+					<label class="form-check-label" for="exampleRadios23">
+						Sensation d’oppression ou douleur au niveau de la poitrine
+					</label>
+				</div>
+				<div class="form-check ml-2 mt-2">
+					<input class="form-check-input" type="checkbox" name="exampleRadios8" id="exampleRadios24" value="option24">
+					<label class="form-check-label" for="exampleRadios24">
+						Perte d’élocution ou de motricité
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row mt-3 mr-0 ml-0">
+		<button type="button" class="btn btn-primary btn-lg mx-auto mt-5">Soumettre</button>
+	</div>
+
+
+	<!-- Footer -->
+  <footer class="page-footer  text-center font-small mt-5 bg-light pb-0">
+
+    <div class="container">
+
+      <div class="row d-flex justify-content-center pt-5 mb-3">
+
+        <div class="col-md-3 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="diagnostiqueur.html">Notre outil de diagnostic</a>
+          </h6>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="rdv.html">Prenez rendez-vous ici</a>
+          </h6>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="ttarticles.html">Retrouvez tous nos articles</a>
+          </h6>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="medecins.html">Découvrez nos médecins</a>
+          </h6>
+        </div>
+      </div>
+      <!-- Grid row-->
+      <hr class="rgba-white-light" style="margin: 0 15%;">
+
+      <div class="row d-flex justify-content-center mb-md-0 mb-4">
+
+        <div class="col-lg-5 col-md-12 mt-5">
+          <div class="text-uppercase font-weight-bold mt-2">
+            Nos horaires
+          </div>
+          <div class="container-fluid">
+            <div class="mt-2">
+              Du lundi au vendredi : de 8h30 à 18h30
+            </div>
+            <div class="mt-2">
+              Le samedi : de 8h30 à 16h30
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7 mt-5">
+          <p style="line-height: 1.7rem" class="text-center">Le cabinet médical vous accueille pendant ses horaires d'ouverture à Chalon-sur-Saône</p>
+        </div>
+      </div>
+
+
+
+      <!-- Grid row-->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-primary text-white mt-3">© Cabinet médical Saint Antoine</div>
+    <!-- Copyright -->
+
+  </footer>
+
+
+
+
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

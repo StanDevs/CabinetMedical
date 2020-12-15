@@ -1,0 +1,30 @@
+:root{--coul1:#3498db; /*Peter-river*/}
+*{font-family: 'Montserrat', sans-serif;}
+.carousel-item img{filter:blur(2px) brightness(60%);}
+.carousel-item{max-height:40em;}
+.hover-no-border:hover{text-decoration: none;}
+.icon-pres{font-size:4rem;}
+.border-coul1{border-color:var(--coul1);}
+.bg-coul1{background-color: var(--coul1);}
+.dnd-center{position:absolute; top:50%; transform:translateY(-50%);}
+.zoom-hover{transition: transform .5s;}
+.zoom-hover:hover{transform: scale(1.1);}
+.imgAlbum{background-size:cover; background-position:center; background-repeat:no-repeat; height:225px;}
+#art1{background-image: url("img/6.jpg");}
+#art2{background-image: url("img/8.jpg");}
+#art3{background-image: url("img/7.jpg");}
+.imgMedecins{width:130px; height:130px;background-size:cover; background-position:top; background-repeat:no-repeat;}
+#doc1{background-image: url("imgMedecins/1.jpg");}
+#doc2{background-image: url("imgMedecins/2.jpg");}
+#doc3{background-image: url("imgMedecins/3.png");}
+#doc4{background-image: url("imgMedecins/4.jpg");}
+#doc5{background-image: url("imgMedecins/5.jpg");}
+#doc6{background-image: url("imgMedecins/6.jpg");}
+#doc7{background-image: url("imgMedecins/7.jpg");}
+#doc8{background-image: url("imgMedecins/8.jpg");}
+#doc9{background-image: url("imgMedecins/9.jpg");}
+#doc10{background-image: url("imgMedecins/10.jpg");}
+@media screen and (max-width: 992px) {
+  .mt-4-phone{margin-top:1.5rem;}
+  .dnd-center{position:static; top:0; left:0; transform:translateX(0);}
+}
